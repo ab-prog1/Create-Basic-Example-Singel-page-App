@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -14,8 +14,8 @@ const Home = () => {
                         totam, ratione, voluptas eveniet soluta incidunt itaque optio beatae
                         id temporibus, ex exercitationem sint ad earum in sed? Quam, cum sunt.
                     </p>
-                    <Link className="btn btn-dark" to="/users">Users</Link>
-                    <Link className="btn btn-light ms-3" to="/posts">Posts</Link>
+                    <NavLink className="btn btn-dark" to="/users">Users</NavLink>
+                    <NavLink className="btn btn-light ms-3" to="/posts">Posts</NavLink>
                 </div>
             </div>
         </div >

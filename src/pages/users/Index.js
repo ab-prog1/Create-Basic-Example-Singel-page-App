@@ -22,6 +22,7 @@ const IndexUser = () => {
     }, []);
 
     return (
+        <>
         <div className="container mt-5">
             <div className="row g-3">
                 <h2>Users :</h2>
@@ -30,6 +31,8 @@ const IndexUser = () => {
                 {users && <ListUsers users={users} />}
             </div>
         </div>
+         <div>test</div>
+         </>
     )
 }
 

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const ListUsers = ({ users }) => {
     return (
@@ -7,7 +7,7 @@ const ListUsers = ({ users }) => {
                 <div className="col-md-4" key={user.id}>
                     <div className="card">
                         <div className="card-header fw-bold">
-                            <Link to={`/users/${user.id}`} >{user.name}</Link>
+                            <NavLink to={`/users/${user.id}`} >{user.name}</NavLink>
                         </div>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">username : {user.username}</li>
